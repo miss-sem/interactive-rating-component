@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Overpass;
+    background-color:hsl(216, 12%, 8%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 20px;
+    color: white;
+}
+
+
+.containerRate{
+    max-width: 430px;
+    margin: auto;
+    background-color:hsl(213, 19%, 18%);
+    padding:30px;
+    border-radius: 30px;
+    
+}
+
+.starImage{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color:hsl(213, 19%, 18%);
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0 4px 10px rgba(0, 0, 7, 0.2);
+margin-bottom: 40px;
+}
+ h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+ }
+
+p{
+    color: hsl(217, 12%, 63%) ;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.numbers{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color:hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 7, 0.2);
+    color:  hsl(217, 12%, 63%) ;
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-right: 30px;  */
+    /* margin-bottom: 35px; */
+}
+
+.numbers:hover{
+    background-color:hsl(25, 97%, 53%) ;
+    cursor: pointer;
+    color: hsl(213, 19%, 18%) ;
+    transition: 0.8s;
+}
+
+.containerNum{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+button{
+    width: 100%;
+    padding: 10px 20px;
+    background-color:hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    color: hsl(216, 12%, 8%);
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+ button:hover{
+    background-color: white;
+    transition: 0.8s;
+    cursor: pointer;
+ }
+.containerForThanks{
+    display: none;
+    max-width: 450px;
+    margin: auto;
+    background-color:hsl(213, 19%, 18%);
+    padding:30px;
+    border-radius: 30px;
+    text-align: center;
+} 
+
+.thanksImage{
+    margin-bottom: 15px;
+}
+
+.numOfSelection{
+    border:  1px solod white;
+}
+
+.acknowledgement p{
+    font-size: 16px;
+}
+
+.acknowledgement p:first-child{
+    color:hsl(25, 97%, 53%) ;
+    background-color: hsl(213, 14%, 26%);
+    /* width: 100%; */
+    display: inline-block;
+    border-radius:20px;
+    padding: 5px;
+    padding-inline: 30px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 7, 0.2); */
+}
+.acknowledgement p:nth-child(2){
+    color: white;
+    font-size: 22px;
+}
+
+@media  screen and (max-width:460px) {
+  
+
+    body{
+        padding: 200px 20px;
+    }
+    .containerRate{
+        width: 100%;
+    }
+    h1{
+        font-size: 26px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    .numbers {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px 0;
+    }
+    
+    .thanksImage img{
+        width: 100px;
+    }
+
+    .acknowledgement p:first-child{
+        font-size: 18px;
+    }
+    .acknowledgement p{
+        font-size: 14px;
+    }
+
+    }
+
+
